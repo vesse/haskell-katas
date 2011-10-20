@@ -24,5 +24,11 @@ toromans_specs = describe "toromans" [
     (toromans 4 == "IV"),
 
   it "returns \"IX\" when given 9"
-    (toromans 9 == "IX")
+    (toromans 9 == "IX"),
+
+  it "returns \"XLIX\" when given 49"
+    (toromans 49 == "XLIX"),
+
+  it "returns \"MCMXCIX\" when given 1999"
+    (toromans 1999 == "MCMXCIX")
   ]
