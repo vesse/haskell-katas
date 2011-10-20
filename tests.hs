@@ -1,5 +1,8 @@
 import Test.Hspec
 
 import Test.FizzBuzzTest
+import Test.RomanNumbersTest
 
-main = hspec fizzbuzz_specs
+main = do
+       hspec fizzbuzz_specs
+       hspec toromans_specs
